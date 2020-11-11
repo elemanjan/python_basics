@@ -1,0 +1,5 @@
+number = input("Enter number:")
+number = number.split()
+fstNum = int(number[0])
+sndNum = int(number[1])
+print(fstNum + sndNum)
