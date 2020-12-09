@@ -1,0 +1,42 @@
+img{
+    width: 600px;
+}
+h2#title_h2{
+    color: rgb(216, 23, 23);
+}
+.container-1{
+    margin: auto;
+    width: 30%;
+}
+.container{
+    border: 3px solid rgb(26, 100, 119);
+    width: 400px;
+    height: 400px;
+    ;
+
+}
+.title_1{
+    font-size: 64px;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    width: 400px;
+}
+.desc{
+    font-weight: 500;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    width: 400px;
+    color: rgba(0, 255, 157, 0.692);
+    background-color: rgb(27, 27, 27);
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+.text{
+    width: 400px;
+    line-height: 20px;
+    text-align: center;
+}
