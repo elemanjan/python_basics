@@ -1,0 +1,52 @@
+.title-1{
+    color: rgb(214, 52, 52);
+    font-size: 30px;
+}
+
+.title-1:active{
+    color: rgb(0, 190, 0);
+}
+
+.title-1::first-letter{
+    color:salmon;
+    font-size: 35px;
+}
+
+.title-2{
+    color:aqua;
+}
+
+.title-2:hover{
+    color:black;
+}
+
+.container p:first-child{
+    color:chocolate;
+    font-size: 20px;
+}
+
+.title-3::first-letter{
+    font-size: 40px;
+}
+
+.text-1::first-line{
+    color:orange;
+    font-weight: bold;
+}
+
+.text-1::selection{
+    color:white;
+    background:black;
+}
+
+.text-1::after{
+    content: "Hello!";
+    font-size: 45px;
+    color:brown;
+}
+
+.text-1::before{
+    content: "Salam!";
+    color:palegreen;
+
+}
