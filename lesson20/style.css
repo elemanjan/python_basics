@@ -1,0 +1,14 @@
+.box{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(41, 138, 184);
+    background: rgb(41, 138, 184);
+    margin: 200px auto;
+    transform: rotate(180deg);
+    transition: transform 5s linear 0s;
+}
+
+.box:hover{
+    background: rgb(151, 10, 0);
+    transition: all 500ms ease-in 0s;
+}

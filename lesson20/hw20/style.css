@@ -1,0 +1,19 @@
+.container{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(41, 138, 184);
+    background: rgb(41, 138, 184);
+    margin: 200px auto;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.container:hover{
+    background: rgb(151, 10, 0);
+    /* transform: scale(4); */
+    width: 100px;
+    height: 100px;
+    transform: rotate(180deg);
+    /* transition: transform 5s linear 2s;
+    transition: all 1.5s ease-in 0s; */
+}
