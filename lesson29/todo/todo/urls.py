@@ -16,7 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from main.views import homepage
+from main.views import third
+
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url('', homepage, name="home")
+    # url("", homepage, name="home"),
+    url('test3/', third, name="test"),
 ]
